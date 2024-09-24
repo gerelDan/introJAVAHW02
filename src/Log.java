@@ -1,8 +1,9 @@
 import java.io.FileInputStream;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import java.util.logging.*;
+//import java.util.logging.LogManager;
+//import java.util.logging.Logger;
 
-public class log {
+public class Log {
     static {
         try(FileInputStream  in   = new FileInputStream("log.config")){
             LogManager.getLogManager().readConfiguration(in);

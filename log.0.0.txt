@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-09-24T17:14:48.292398303Z</date>
+  <millis>1727198088292</millis>
+  <nanos>398303</nanos>
+  <sequence>0</sequence>
+  <logger>Task04</logger>
+  <level>INFO</level>
+  <class>Task04</class>
+  <method>findMinMax</method>
+  <thread>1</thread>
+  <message>2024-09-24 22:14Min: 1Max: 9</message>
+</record>
+</log>
+Sep 24, 2024 10:15:47 PM Task04 findMinMax
+INFO: 2024-09-24 22:15 Min: 1Max: 9
+Sep 24, 2024 10:16:16 PM Task04 findMinMax
+INFO: 2024-09-24 22:16 Min: 1, Max: 9
